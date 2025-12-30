@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | About</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="index.html">Simona<span>.</span></a>
+
+      <nav class="menu" id="menu">
+        <a class="active" href="index.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          
+          <h1>Hi, I’m <span class="accent">Simona Nakova</span>.</h1>
+          <p class="subtitle">
+            I’m an IT student with an ambiotion to grow, learn and develop new skills.
+            
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn" href="projects.html">View Projects</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
+
+          
+        </div>
+
+        <div class="hero-card">
+          <div class="photo-wrap">
+            <img src="images/simona.png" alt="Photo of me" class="photo" />
+          </div>
+
+          <div class="card">
+            <h2>About Me</h2>
+            <p>
+              I’m studying Informatics & Computer Science.
+              My goal is to grow into a strong developer through internships, courses, and real projects.
+            </p>
+
+            <div class="stats">
+              <div class="stat">
+                <span class="stat-num" data-count="2">0</span>
+                <span class="stat-label">Projects</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num" data-count="100">0</span>
+                <span class="stat-label">% Ambition</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num" data-count="100">0</span>
+                <span class="stat-label">% Motivation</span>
+              </div>
+            </div>
+
+            <a class="mini-link" href="projects.html">See what I built →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="grid-2">
+  <div class="panel">
+    <h3>Computer skills</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Java</li>
+      <li>SQL</li>
+      <li>Microsoft office</li>
+    </ul>
+  </div>
+
+  <div class="panel">
+    <h3>Soft Skills</h3>
+    <ul>
+      <li>Organized and detail-oriented</li>
+      <li>Fast learner</li>
+      <li>Problem-solving mindset</li>
+      <li>Good communication skills</li>
+      <li>Responsible and motivated</li>
+    </ul>
+  </div>
+</div>
+
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+      
+
+        <div class="contact-card">
+          <div>
+            <p><b>Email:</b> simona_rz11@abv.bg </p>
+            <p><b>Phone number:</b> 0890919098</p>
+            <p><b>GitHub:</b> github.com/simona-04-nkv</p>
+          </div>
+
+          <button class="btn ghost" id="copyEmailBtn" data-email="simona_rz11@abv.bg">
+            Copy email
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Simona Nakova • Built with HTML/CSS/JS</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Projects</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="index.html">Simona<span>.</span></a>
+
+      <nav class="menu" id="menu">
+        <a href="index.html">About</a>
+        <a class="active" href="projects.html">Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1 class="page-title">Personal Projects</h1>
+        <p class="muted">
+          Here are some of the projects I've worked on.</p>
+
+
+        <div class="projects-grid" id="projectsGrid">
+          
+          <article class="project-card" data-type="web">
+            <div class="project-head">
+              <p class="tag">Web</p>
+              <h2>MusicLab Studio Website</h2>
+              <p class="muted">
+                A multi-page website built using HTML, CSS, and JavaScript.
+              </p>
+            </div>
+
+            <div class="project-body">
+              <ul>
+                <li>Responsive layout with clean UI</li>
+                <li>Navigation between pages</li>
+                <li>Interactive elements (filters, copy email, mobile menu)</li>
+              </ul>
+            </div>
+
+            <div class="project-actions">
+  <a class="btn ghost" href="https://simona-04-nkv.github.io/musiclab-studio-site/index.html" target="_blank" rel="noopener">
+    Live Demo
+  </a>
+  <a class="btn" href="https://github.com/simona-04-nkv/musiclab-studio-site" target="_blank" rel="noopener">
+    GitHub Repo
+  </a>
+</div>
+
+
+          </article>
+
+          
+          <article class="project-card" data-type="java">
+            <div class="project-head">
+              <p class="tag">Java</p>
+              <h2>Gym Management</h2>
+              <p class="muted">
+                Java desktop application for managing gym members and memberships.
+              </p>
+            </div>
+
+            <div class="project-body">
+              <ul>
+                
+                <li>CRUD operations</li>
+                <li>Working with database</li>
+                <li>Worked with UI </li>
+              </ul>
+            </div>
+
+            <div class="project-actions">
+  <a class="btn ghost"
+     href="https://github.com/simona-04-nkv/gym-manage"
+     target="_blank" rel="noopener">
+     GitHub Repo
+  </a>
+</div>
+
+          </article>
+        </div>
+      </div>
+    </section>
+
+    
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Simona Nakova • Projects</p>
+    </div>
+  </footer>
+</body>
+</html>
